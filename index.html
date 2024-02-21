@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bakit ang ganda mo</title>
+ <link rel="stylesheet" href="./styleme.css">
+</head>
+<div class="heart" onclick="javascript:this.classList.toggle('active')"></div>
+
+<style>
+   h1 {color: rgb(117, 117, 158)}
+
+#hii {text-align: center;}
+html {background-color: rgb(222, 195, 159);}
+#p {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+img {
+    height: 200px;
+    width: 250px;
+    margin-left: 18px;
+  }
+#first {background-color: whitesmoke;}
+#sana {
+width: 300px;
+background-color: rgb(120, 135, 154);
+height: 250px;}
+#sg {font-size: larger;
+font-weight: 600;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+#more {border:solid  green;
+margin: 20px;
+background-color: rgb(118, 226, 190);
+width: 280px}
+#clickk {height: 90px;}
+
+
+    .heart {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+  
+}
+.heart.active {
+  animation: fave-heart 1s steps(28); 
+  background-position: -2800px 0;
+  transition: background 1s steps(28);
+  cursor: default;
+}
+@keyframes fave-heart {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2800px 0;
+  }
+}
+#hi {margin-left: 180px;}
+</style>
+<body>
+
+<h1 id="hii">Hi, binibini</h1>
+<img src="./hello.jpg" id="hi">
+<h2>Ganda mo - sobra :)</h2>
+<hr/>
+<div id="first">
+<p id="p">Nagtataka ka siguro kung para san to <br/>
+well, di ko rin alam hahaha pero diba nga <br/>
+nakwento ko sayo na nag a-upskill ako <br/>
+and currently nag te-take ako ng course about <br/>
+web development. So naisip ko, why not gawa ko ng mini <br/>
+project para sa taong espesyal sakin eyyy<br/>
+<br/>
+This is my very first project so pagpasensyahan mo na <br/>
+wala pa masyadong design and what not hahaha konti palang kasi alam ko<br/>
+pero okay lang yan, iba nga nasunugan eh <br/>
+<br/>
+Wait, di ko tlga alam mga ilalagay ko dito pero kung nakikita mo lang 
+ngiti ko habang muntangang gumagawa ng codes neto <br/>
+hahahh ewan ko ba, I like doing things if it's for you. <br/>
+<br/>
+
+anyway, this webpage is basically an invitation for another church date with you.
+<br/> sa tanging rason na gusto lang kitang makita uli hehe :) <br/>
+</div>
+
+<div id="sana">
+   <p id="sg"> And sana G ka :((</p> 
+   <img src="./hope.jpg">
+</div>
+<br/>
+<br/>
+<img src="./download.png" sizes="20">    
+
+<div id="more">
+<h3> more info about this church date?</h3>
+<a href="something2.html"><img src="./click.webp" id="clickk"></a> <br/>
+</div>
+
+</body>
+
+</html>
